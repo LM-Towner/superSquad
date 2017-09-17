@@ -23,7 +23,7 @@ class Stats extends Component {
   render() {
     return (
       <div>
-        <h4 className="heading" />
+        <h4 className="heading">Squad Stats</h4>
         <ul className="list-group">
           <li className="list-group-item">
             <div>
