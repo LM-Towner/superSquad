@@ -20,3 +20,9 @@ body {
 .list-item {
     display: inline-block;
 }
+
+.heading .title {
+    font-weight: bold;
+    color: black;
+    font-size: 200%;
+}

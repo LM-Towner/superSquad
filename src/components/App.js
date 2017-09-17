@@ -8,7 +8,7 @@ export default class App extends Component {
     render(){
         return(
             <div className="App">
-                <h2>SuperSquad</h2>
+                <h2 className="heading">SuperSquad</h2>
                 <div className="col-md-6">
                 <CharacterList />
                 </div>

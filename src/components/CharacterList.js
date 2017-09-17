@@ -9,7 +9,7 @@ class CharacterList extends Component {
     return (
       <div>
         {" "}
-        <h4>Pick your Character</h4>
+        <h4 className="title">Pick your Character</h4>
         <ul className="list-group">
           {this.props.characters.map(character => {
             return (
