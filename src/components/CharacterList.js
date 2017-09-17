@@ -5,7 +5,7 @@ import { addCharacterById } from "../actions";
 
 class CharacterList extends Component {
   render() {
-    console.log("this.props", this.props);
+    // console.log("this.props", this.props);
     return (
       <div>
         {" "}
@@ -31,7 +31,7 @@ class CharacterList extends Component {
 }
 
 function mapStateToProps(state) {
-  console.log("state", state);
+  // console.log("state", state);
   return {
     characters: state.characters
   };

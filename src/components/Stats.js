@@ -10,7 +10,6 @@ class Stats extends Component {
 
   intelligence() {
     let intelligence = 0;
-    let strength = 0;
     this.props.heroes.forEach(hero => (intelligence += hero.intelligence));
     return intelligence;
   }
