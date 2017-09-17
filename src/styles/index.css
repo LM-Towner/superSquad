@@ -1,0 +1,22 @@
+body {
+    background-image: url("http://www.powerpointhintergrund.com/uploads/2017/06/what-the-avengers-teach-us-about-teamwork-nulman-notes-10.jpeg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: none;
+    opacity: 0.8;
+
+}
+
+.App {
+    text-align: center;
+    padding: 5%;
+}
+
+.right-button {
+    cursor: pointer;
+    float: right;
+
+}
+.list-item {
+    display: inline-block;
+}
